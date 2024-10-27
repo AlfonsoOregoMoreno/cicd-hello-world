@@ -14,7 +14,7 @@ commands:
         type: string
         default: "hello world"
     steps:
-      - run: echo << parameters.message >>
+      - run: echo "echo de Alfonso"
 
 jobs:
   hello-job:
