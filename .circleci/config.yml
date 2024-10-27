@@ -14,7 +14,7 @@ commands:
         type: string
         default: "hello world"
     steps:
-      - run: echo "echo de Alfonso"
+      - run: echo "este es el texto del echo de Alfonso del project hello-world"
 
 jobs:
   hello-job:
@@ -24,7 +24,7 @@ jobs:
       - echo # run the `echo` command
 
 workflows:
-  my-workflow:
+  el-workflow-de-alfonso:
     jobs:
       - hello-job
       
